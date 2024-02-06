@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{ 
+    margin: 0;
+	  font-family: 'Roboto', sans-serif;
+	  /* font-family: 'Lobster', sans-serif; */
+} 
+
+.navbar{
+	display: flex;
+	flex-flow: row wrap;
+    height: 100px;
+    background: rgb(0, 157, 255); 
+	justify-content: center;
+	align-items: center;
+    position: fixed;
+	width: 100%;
+    margin-top: 0%;
+}
+
+.logo{
+    flex: 30%;
+    margin-left: 0%;
+    /* border: 2px solid gray; */
+	  text-align: center;
+      margin-top: 0%;
+}
+
+.logo h1{
+    font-family: 'Lobster', sans-serif;
+    color: rgb(233, 240, 244);
+    font-size: 40px;
+	  margin-bottom: 0px;
+	  margin-top: 0%;
+}
+
+.menu{
+    flex: 50%;
+    /* border: 2px solid green; */
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a{
+    color: rgb(233, 240, 244);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+.menu a:hover{
+    color:#ff2978;
+    border-top: 4px solid rgb(233, 240, 244);
+}
+
+#botao{
+    background: blueviolet;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5px;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+#botao:hover{
+    border: none;
+    background:#ff2978;
+}
+
+
+.player{
+  position:fixed;
+  top:4%;
+  left:38%;
+  height: 30%;
+  width: auto;
+  z-index:5;
+}
+
+.ouvir{
+  position:fixed;
+  top:20%;
+  left:30%;
+  height: 30%;
+  width: auto;
+  z-index:5;
+  color: rgb(0, 157, 255); 
+  text-align: center;
+
+}
+
+
+
+.header{
+    display: flex;   
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background: rgb(73, 73, 126);
+    border: 10px solid rgb(0, 157, 255);
+    padding-top: 100px ;
+    height: 600px;color: rgb(0, 157, 255);
+    
+}
+
+.headline{
+  margin-top: 5%;
+  flex: 60%;
+  text-align: center;
+  z-index: 5;
+  margin-top:-30%;
+}
+
+.headline h2{
+    font-weight: 900;
+    font-size: 40px;
+    color: rgb(0, 157, 255);
+    padding: 0;
+    margin: 0;
+    left: 5%;
+  } 
+
+  .imagem{
+    display:flex;
+    position:absolute;
+    top:20%;
+    left: 5%;
+    z-index: 10;
+  }
+
+  .imagem1{
+    display:flex;
+    position:absolute;
+    top:20%;
+    left: 73%;
+    z-index: 10;
+  }
+
+  /* teste */

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/estilos.css">
+  <title>Programa Palavra Viva</title>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <!-- <img src="img/globo.jpeg"> -->
+      <h1>WEB Rádio </h1>
+        <h1>Boas Novas Salvador</h1>
+    </div>
+    <div class="menu">
+      <a href="palavra_viva.html">Palavra Viva</a>
+      <a href="paz_interior.html">Paz Interior</a>
+      <a href="#">Programação</a>
+      <a id="botao" href="index.html">Início</a>
+    </div>
+  
+  </nav>
+
+  <div class="imagem">
+    <img src="img/globo.jpeg" alt="microfone de fundo">
+  </div>
+  
+  <div class="imagem1">
+    <img src="img/300 x 300 p.png" alt="logo web radio boas novas">
+  </div>
+
+ <header class="header">
+  <div class = "headline" >
+    
+  </div>
+</header>
+
+<div class = "ouvir">
+  <div class="player" >
+    <script type="text/javascript" src="https://hosted.muses.org/mrp.js"></script>
+  <script type="text/javascript">
+  MRP.insert({
+  'url':'https://stm28.xcast.com.br:12720/stream',
+  'codec':'aac',
+  'volume':100,
+  'autoplay':false,
+  'forceHTML5':true,
+  'jsevents':false,
+  'buffering':0,
+  'title':'Web Radio Boas Novas Salvador',
+  'wmode':'transparent',
+  'skin':'mcclean',
+  'width':180,
+  'height':60,
+  });
+  </script>
+  
+  </div>
+
+  <h3 class="ouvir">Programa Palavra Viva=======Programa Paz Interior</h3>
+  <br>
+  <br>
+  <h3 style="line-height: 0; color: white;">Locutor: Pr. Cleonilson=======Pra. da Paz </h3>
+
+  <h1>Programas Gravados12</h1>
+  <audio controls><source src="./audios/Palavra Viva 01022023.mp3 " type="audio/mpeg" ></audio>
+<!--teste de gitestervv-->
+
+</body>
+</html>
